@@ -1,0 +1,1 @@
+const audioElement = document.querySelector(".js-audio");
