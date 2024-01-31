@@ -1,7 +1,40 @@
+:root {
+    --button-color: #f7f7f7;
+    --button-backgroundColor: #111;
+}
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.button-audio {
+    cursor: pointer;
+    background-color: var(--button-backgroundColor);
+    color: var(--button-color);
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.progress-audio {
+    width: 300px;
+    height: 20px;
+    border: 2px solid #ccc;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #111;
 }
